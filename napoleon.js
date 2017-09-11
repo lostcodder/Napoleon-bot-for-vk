@@ -1,41 +1,77 @@
-//Node.js Bot for VK "Napoleon" v1.0
+//Node.js Bot for VK "Napoleon" v1.3
 
 //Вывод приветствия и информации о пользовании ботом в консоль
-    
+
+
     function func1() {
-    console.log( '\n \n ●▬▬▬▬▬▬ஜ۩۞۩ஜ۩۞۩ஜ۩۞۩ஜ▬▬▬▬▬▬●' );
+        console.log( '\n \n **       *        **       ********  *********  *         ********  *********  **     *')
     }
     setTimeout(func1, 1000);
 
     function func2() {
-    console.log( ' \n \n ( ͡° ͜ʖ ͡°) \n \n Вас приветствует Бот "Napoleon v1.0"' );
+        console.log( '*  *     *       *  *      *      *  *       *  *         *         *       *  * *    *')
     }
-    setTimeout(func2, 2000);
+    setTimeout(func2, 1500);
 
     function func3() {
-    console.log( '\n \n Для того что бы узнать команды, введите в ЛС /Команды \n Для тестирования бота, введите в ЛС /test \n \n Вы можете добавить бота в беседку \n Бот находится в разработке, функции будут дополнятся \n \n \n --------------------------------------------------- ' );
+        console.log( '*   *    *      *    *     *      *  *       *  *         *         *       *  *  *   *')
     }
-    setTimeout(func3, 3000);
+    setTimeout(func3, 2000);
 
     function func4() {
-    console.log( '\n Инициализация Node.js...' );
+        console.log( '*    *   *     ********    ********  *       *  *         ********  *       *  *   *  *')
     }
-    setTimeout(func4, 5000);
+    setTimeout(func4, 2500);
 
     function func5() {
-    console.log( '\n Авторизация Вконтакте, используя ваш Токен...' );
+        console.log( '*     *  *    *        *   *         *       *  *         *         *       *  *    * *')
     }
-    setTimeout(func5, 7000);
+    setTimeout(func5, 3000);
 
     function func6() {
-    console.log( '\n Запуск LongPool сервера...' );
+        console.log( '*      * *   *          *  *         *       *  *         *         *       *  *     **')
     }
-    setTimeout(func6, 9000);
+    setTimeout(func6, 3500);
 
     function func7() {
+        console.log( '*       **   *          *  *         *********  ********  ********  *********  *      *')
+    }
+    setTimeout(func7, 4000);
+
+    function func8() {
+    console.log( '\n \n ●▬▬▬▬▬▬ஜ۩۞۩ஜ۩۞۩ஜ۩۞۩ஜ▬▬▬▬▬▬●' );
+    }
+    setTimeout(func8, 5000);
+
+    function func9() {
+    console.log( ' \n \n ( ͡° ͜ʖ ͡°) \n \n Вас приветствует Бот "Napoleon v1.3"' );
+    }
+    setTimeout(func9, 6000);
+
+    function func10() {
+    console.log( '\n \n Для того что бы узнать команды, введите в ЛС /Команды \n Для тестирования бота, введите в ЛС /test \n \n Вы можете добавить бота в беседку \n Бот находится в разработке, функции будут дополнятся \n \n \n \n Авторы проекта: \n \n Дмитрий Сидоров \n \n \n --------------------------------------------------- ' );
+    }
+    setTimeout(func10, 7000);
+
+    function func11() {
+    console.log( '\n Инициализация Node.js...' );
+    }
+    setTimeout(func11, 9000);
+
+    function func12() {
+    console.log( '\n Авторизация Вконтакте, используя ваш Токен...' );
+    }
+    setTimeout(func12, 10000);
+
+    function func13() {
+    console.log( '\n Запуск LongPool сервера...' );
+    }
+    setTimeout(func13, 11000);
+
+    function func14() {
     console.log( '\n \n Все функции успешно запущенны и работатют. Приятного пользвания! \n \n \n ');
     }
-    setTimeout(func7, 11000);
+    setTimeout(func14, 12000);
 
 //Авторизация Вконтакте, используя токен со всеми правами
 
@@ -160,14 +196,6 @@
         var reply = replies[Math.floor(Math.random()*replies.length)];
         msg.reply(reply)
     }       
-
-                                                /* Викторина с вопросами
-                                                Количество вариантов ответов = 2
-                                                Для того что бы бот мог ответить вам,
-                                                правильно ли вы ответили или нет,
-                                                необходимо написать один из вариантов ответа.
-                                                Затем бот выдаст результат в соотвествии
-                                                со строкой из //Варианты ответов */
         
     if (msg.body.toLowerCase() == '/Задай вопрос'.toLowerCase()) {
         
@@ -295,10 +323,5 @@
         var reply = replies[Math.floor(Math.random()*replies.length)];
         msg.reply(reply)
     }
-        
+                            
 });
-
-                                                
-
-
-
