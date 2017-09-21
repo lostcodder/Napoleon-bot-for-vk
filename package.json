@@ -1,0 +1,23 @@
+{
+  "name": "napoleon",
+  "version": "0.0.1",
+  "description": "In order for the bot to work, you need to install Node.js and ConEmu on your computer",
+  "main": "napoleon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhon72/Napoleon-bot-for-vk.git"
+  },
+  "author": "jhon72",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhon72/Napoleon-bot-for-vk/issues"
+  },
+  "homepage": "https://github.com/jhon72/Napoleon-bot-for-vk#readme",
+  "dependencies": {
+    "VK-Promise": "^0.2.3",
+    "noob-db": "git+https://github.com/lostcodder/noob-db.git"
+  }
+}
